@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import styles from  "./Header.module.css"
 
 const navigation = [
   { component: "/", name: "Home" },
@@ -9,15 +10,11 @@ const navigation = [
 
 const Header = () => {
   return (
-    <nav>
-      {/* <Link to={"/"}>Home</Link>
-        // <Link to={"/contact"}>Contato</Link> */}
-      {/* metodo de fazer 1 a 1 na mão */}
-      <Link to={"/"}>Home</Link>
-      <Link to={"/contato"}>Contato</Link>
-      <Link to={"/sobre"}>Sobre</Link>
-
-    </nav>
+    <div className={styles.container}>
+      <Link to={"/"}><p>Home</p></Link>
+      <Link to={"/contato"}><p>Contato</p></Link>
+      <Link to={"/sobre"}><p>Sobre</p></Link>
+      </div>
   )
 }
 
