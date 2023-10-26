@@ -2,7 +2,6 @@ import React from 'react'
 import styles from  "./Footer.module.css"
 import insta from "../../assets/logo-instagram.svg"
 import tiktok from "../../assets/logo-tiktok.svg"
-import twitter from "../../assets/logo-twitter.svg"
 import github from "../../assets/logo-github.svg"
 
 
