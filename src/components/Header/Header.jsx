@@ -4,8 +4,7 @@ import styles from  "./Header.module.css"
 const navigation = [
   { component: "/", name: "Home" },
   { component: "/contact", name: "Contato" },
-  { component: "/sobre", name: "Sobre" },
-  { component: "/login", name: "Login" },
+  { component: "/sobre", name: "Sobre" }
 ]
 
 const Header = () => {
