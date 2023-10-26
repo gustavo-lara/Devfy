@@ -9,10 +9,9 @@ import github from "../../assets/logo-github.svg"
 const Footer = () => {
   return (
     <div className={styles.div}>
-     <a href="#"><img src={insta} alt="" /></a>
-     <a href="#"><img src={tiktok} alt="" /></a>
-     <a href="#"><img src={twitter} alt="" /></a>
-     <a href="#"><img src={github} alt="" /></a>
+     <a href="https://www.instagram.com/_gustavolara_/"><img src={insta} alt="" /></a>
+     <a href="https://www.tiktok.com/@gustavolara_"><img src={tiktok} alt="" /></a>
+     <a href="https://github.com/gustavo-lara"><img src={github} alt="" /></a>
     </div>
   )
 }

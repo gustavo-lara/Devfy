@@ -20,6 +20,6 @@
 
 .container p:hover{
     color: rgb(196, 196, 196);
-    transition: 0.4s;
+    transition: 0.7s;
     font-size: 27px;
 }
