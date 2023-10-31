@@ -9,11 +9,9 @@ const navigation = [
 
 const Nav = () => {
   return (
-    <div className={styles.container}>
-      
-      {/* <Link to={"/"}><p>Home</p></Link>
-      <Link to={"/contato"}><p>Contato</p></Link>
-      <Link to={"/sobre"}><p>Sobre</p></Link> */}
+    <div className={styles.Nav}>
+      <Link to={"/"}><p>Início</p></Link>
+      <Link to={"/contato"}><p>Buscar</p></Link>
       </div>
   )
 }
