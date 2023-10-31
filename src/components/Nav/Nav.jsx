@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import styles from  "./Header.module.css"
+import styles from  "./Nav.module.css"
 
 const navigation = [
   { component: "/", name: "Home" },
@@ -7,14 +7,15 @@ const navigation = [
   { component: "/sobre", name: "Sobre" }
 ]
 
-const Header = () => {
+const Nav = () => {
   return (
     <div className={styles.container}>
-      <Link to={"/"}><p>Home</p></Link>
+      
+      {/* <Link to={"/"}><p>Home</p></Link>
       <Link to={"/contato"}><p>Contato</p></Link>
-      <Link to={"/sobre"}><p>Sobre</p></Link>
+      <Link to={"/sobre"}><p>Sobre</p></Link> */}
       </div>
   )
 }
 
-export default Header
+export default Nav
