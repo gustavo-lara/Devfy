@@ -12,8 +12,8 @@ const Nav = () => {
     <div className={styles.Nav}>
       <img className={styles.logo} src={logowhite} alt="" />
       <div className={styles.links}>
-      <Link to={"/"}><p>Início</p></Link>
-      <Link to={"/buscar"}><p>Buscar</p></Link>
+        <div><ion-icon name="home-outline"></ion-icon><Link to={"/"}><p>Início</p></Link></div>
+        <div><ion-icon  className={styles.icon}name="search-outline"></ion-icon><Link to={"/buscar"}><p>Buscar</p></Link></div>
       </div>
     </div>
   )
