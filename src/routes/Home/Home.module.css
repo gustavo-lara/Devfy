@@ -1,0 +1,10 @@
+:root {
+    --div-color: rgb(12, 12, 12);
+}
+.div {
+    background-color: var(--div-color);
+    height: 98vh;
+    width: 100%;
+    margin: 8px 8px 8px 0px;
+    border-radius: 10px;
+}

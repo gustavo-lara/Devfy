@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from "./Buscar.module.css"
 
 const Buscar = () => {
   return (
-    <div>Buscar</div>
+    <div className={styles.div}>Buscar</div>
   )
 }
 
