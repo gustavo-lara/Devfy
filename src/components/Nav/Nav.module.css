@@ -1,17 +1,40 @@
 :root {
-    --div-color: rgb(7, 7, 7);
+    --div-color: rgb(10, 10, 10);
 }
 
 .Nav {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 100px;
-    margin: 10px;
+    width: 340px;
+    height: 160px;
     border-radius: 10px;
+    margin: 10px;
     background-color: var(--div-color);
 }
 
-.Nav Link{
-    background-color: var(--div-color);
+.logo {
+    width: 100px;
+    padding: 10px;
+    height: auto;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Nav a {
+    color: rgb(161, 161, 161);
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.Nav a:hover {
+    color: white;
 }

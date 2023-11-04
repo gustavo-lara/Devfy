@@ -1,4 +1,9 @@
 * {
     margin: 0;
-    background-color: red;
+}
+
+.Body {
+    padding: 0.01%;
+    margin: 0;
+    background-color: black;
 }
