@@ -6,6 +6,9 @@ export const Home = () => {
       <div className={styles.bar}>
         <a href="">Inscrever-se</a> <button>Entrar</button>
       </div>
+      <div className={styles.cont}>
+        <p>Playlists do Spotify</p>
+      </div>
     </div>
   )
 }

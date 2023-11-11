@@ -28,7 +28,7 @@
 
 }
 
-.bar button:hover{
+.bar button:hover {
     scale: 1.04;
 }
 
@@ -42,6 +42,19 @@
     transition: 0.5s;
 }
 
-.bar a:hover{
+.bar a:hover {
     scale: 1.04;
+}
+
+.cont {
+    width: 100%;
+}
+
+.cont p {
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
 }
