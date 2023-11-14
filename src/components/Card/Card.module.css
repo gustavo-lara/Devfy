@@ -39,28 +39,6 @@
     margin-bottom: 8px;
     font-weight: 500;
 }
-
-.play {
-    background-color: rgb(99, 204, 99);
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    scale: 1.6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 50px;
-    right: 35px;
-    display: none;
-}
-
-.play ion-icon {
-    margin: 0px;
-    padding: 0px;
-}
-
 .card:hover {
     background-color: rgb(33, 33, 33);
     scale: 1.02;
