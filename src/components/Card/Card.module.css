@@ -43,4 +43,13 @@
     background-color: rgb(33, 33, 33);
     scale: 1.02;
 }
+@media screen and (max-width: 450px) {
+    .card {
+        scale: 0.8;
+    }
+
+    .card:hover {
+        scale: 0.85;
+    }
+}
 

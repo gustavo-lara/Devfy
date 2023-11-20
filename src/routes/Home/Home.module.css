@@ -46,6 +46,7 @@
     scale: 1.04;
 }
 
+
 .cont {
     width: 100%;
 }
@@ -63,4 +64,19 @@
     display: flex;
     margin: 3% 2%;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 450px) {
+    .div {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .cards {
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .bar button{
+        display: none;
+    }
 }
